@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Special+Elite&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,11 +10,19 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 .logo,
 .icon {
     width: 80px;
+}
+.icon{
+    padding-top: 10px;
+}
+
+#logo_link{
+    padding-top:5px ;
 }
 
 h4 {
@@ -35,6 +45,9 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 
 #background {
     height: 725px;
@@ -42,6 +55,13 @@ main section {
 
 body {
     background-color: #CAD2CF;
+    font-family: 'Roboto',''Trebuchet MS'', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 
 header {
@@ -55,9 +75,13 @@ nav a:hover {
 
 .book,
 .join {
-    background-color: #6e6a6f;
+    background-color: #aa968a;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover,
@@ -65,18 +89,27 @@ nav a:hover {
     background-color: #239ad5;
     color: white;
 }
-
+.card-img{
+    border: 10px solid #6e6a6f;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
 #background {
     background-color: #aa968a;
 }
 
 .msg {
     background-color: #6e6a6f;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #6e6a6f;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -96,14 +129,24 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 .home-title {
     color:#6e6a6f ;
+    font-family: 'Special Elite', 'Brush Script MT', cursive;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .msg h2 {
     color: white;
+    font-family: 'Special Elite', 'Brush Script MT', cursive;
 }
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
